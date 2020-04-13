@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,20 +12,32 @@ namespace ConsoleApp16
             public static void Main(String []a) {
             ManageUserInput b = new ManageUserInput();
            
-            Console.WriteLine(b.acquireUserInput());
+            b.acquireUserInput();
         }
     }
 
     class ManageUserInput
     {
-        public String acquireUserInput()
+        public void acquireUserInput()
         {
+            String input = Console.ReadLine();
             // todo: 
             // step 1: make a ARRAY
             // step 2: walk over the string 1 character at a time: 
             // put each character of the string into the Array
             // we then need to figure out how to get the number value of each letter
-            return Console.ReadLine();
+
+            ArrayList lineOfText = new ArrayList();
+            // how do we get a text string into an ARRAY?
+            // we remember that  text string IS an Array
+
+            for (int i = 0; i < input.Length ; i++)
+            {
+                Console.WriteLine(input[i]);
+            }
+            // how do we find the number equivalent of each letter?
+            // You have until until 3:00 to solve this problem - good for test prep!
+
         }
 
     }
