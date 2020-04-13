@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp16
+{
+# to do: input a user string
+# assign a number value to each letter a = 1, b = 2 (treat everything as lower case)
+# add up the string:
+# Learning outcome: Working with Arrays and Strings
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
