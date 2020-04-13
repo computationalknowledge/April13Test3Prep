@@ -31,12 +31,18 @@ namespace ConsoleApp16
             // how do we get a text string into an ARRAY?
             // we remember that  text string IS an Array
 
+            IDictionary<string, int> dict = new Dictionary<string, int>();
+            dict.Add("a", 1);
+            dict.Add("b", 2);
+            dict.Add("c", 3);
+            
+            dict.
             for (int i = 0; i < input.Length ; i++)
             {
-                Console.WriteLine(input[i]);
+                lineOfText.Add(input[i]);
+                // how to solve the problem of finding the number equivalent for each alphabet letter?
             }
-            // how do we find the number equivalent of each letter?
-            // You have until until 3:00 to solve this problem - good for test prep!
+            
 
         }
 
