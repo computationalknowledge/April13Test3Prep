@@ -1,3 +1,8 @@
+#success tips for TEST:
+#  Do all your work with Objects and Classes, and Method Calls
+#   Your method calls should have good return types
+# Start by writing a program that produces a Simple Output and Work your way up
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,16 +11,23 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp16
 {
-# to do: input a user string
-# assign a number value to each letter a = 1, b = 2 (treat everything as lower case)
-# add up the string:
-# Learning outcome: Working with Arrays and Strings
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-
+    class Program {
+            public static void Main(String []a) {
+            ManageUserInput b = new ManageUserInput();
+            b.acquireUserInput();
+            Console.WriteLine(b);
         }
     }
+
+    class ManageUserInput
+    {
+        public String acquireUserInput()
+        {
+            return Console.ReadLine();
+        }
+
+    }
 }
+
+
